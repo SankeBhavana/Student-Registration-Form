@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <center><h1>Student Registration Form</h1></center>
+
+    <table>
+        <table align="center">
+       <!--                First Name               -->
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="First Name" maxlenght="50" placeholder="Bhavana"></td>
+        </tr>
+         <!--                Last Name               -->
+         <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="Last Name" maxlenght="50" placeholder="Sanke"></td>
+        </tr>
+         <!--                Email ID               -->
+         <tr>
+            <td>Email ID</td>
+            <td><input type="email" name="Email ID" maxlenght="100" placeholder="abc@gmail.com"></td>
+        </tr>
+        <!--               Contact Number           -->
+        <tr>
+            <td>Contact Number</td>
+            <td><input type="tel" name="Contact Number" maxlenght="10" placeholder="123-456-7890"></td>
+        </tr>
+         <!--               Gender                  -->
+         <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="Gender" value="Male" />
+                Male
+            <input type="radio" name="Gender" value="Female" />
+        Female
+        <input type="radio" name="Gender" value="Transgender" />
+        Transgender
+    </td>
+
+        </tr>
+         <!--               Date of Birth            -->
+         <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" name="Date of Birth" value="" /></td>
+            </tr>
+                 <!--               Address            -->
+         <tr>
+            <td>Address</td> 
+            <td><textarea name="Address" row="20" col="30"></textarea>
+            </tr>
+             <!--           City           -->
+         <tr>
+            <td>City</td> 
+            <td><input type="text" name="city" value="" ></td>
+            </tr>
+            <!--         Pin code       -->
+         <tr>
+            <td> Pin code </td> 
+            <td><input type="text" name="Pin code" value="401107" > Max 6 characters allowed</td>
+            </tr>
+            <!--          State       -->
+         <tr>
+            <td> State </td> 
+            <td><input type="text" name="State " value="Maharashtra" > Max 50 characters allowed</td>
+            </tr>
+             <!--           Country         -->
+         <tr>
+            <td> Country</td> 
+            <td><input type="text" name="Country" value="India" > Max 50 characters allowed</td>
+            </tr>
+            <!--                   hobbies                   -->
+        <tr>
+            <td>hobbies</td>
+            <td><input type="checkbox" name="hobbies" value="drawing"/>
+           drawing 
+            <input type="checkbox" name="hobbies" value="singing"/>
+            singing 
+            <input type="checkbox" name="hobbies" value="dancing"/>
+            dancing 
+            <input type="checkbox" name="hobbies" value="sketching"/>
+            sketching 
+            <input type="checkbox" name="hobbies" value="Others"/>
+            Others <br>
+            </td>
+        </tr>
+
+ <!--                   Qualification                   -->
+ <tr>
+    <td>Qualification</td><br>
+    <td><input type="checkbox" name=" Qualification" value="High school(10 th)">
+        High school(10 th)<br>
+    <input type="checkbox" name=" Qualification" value="Higher school(12 th)">
+    Higher school(12 th)<br>
+    <input type="checkbox" name=" Qualification" value="Graduation(Bachelor)">
+    Graduation(Bachelor)<br>
+    <input type="checkbox" name=" Qualification" value=" PostGraduation(Masters)">
+    PostGraduation(Masters)<br>
+    <input type="checkbox" name=" Qualification" value="PhD"/>
+    PhD
+    </td>
+        </tr>
+ <!--               Courses Applied for           -->
+ <tr>
+    <td>Courses Applied for </td>
+    <td><input type="radio" name="Courses Applied for" value="BCA(Bachelour of Computer Application)" />
+        BCA(Bachelour of Computer Application) <br>
+      
+        <input type="radio" name="Courses Applied for" value=" B.Com(Bachelour of Commmerce)" />
+            B.Com(Bachelour of Commmerce)
+           <br>
+            <input type="radio" name="Courses Applied for" value=" B.Sc(Bachelour of Science)" />
+                B.Sc(Bachelour of Science)
+            <br>
+                <input type="radio" name="Courses Applied for" value=" BA(Bachelour of Art)" />
+                    BA(Bachelour of Art)
+                <br>
+                    <input type="radio" name="Courses Applied for" value=" MCA(Master of Computer Application)" />
+                        MCA(Master of Computer Application)
+                    <br>
+                        <input type="radio" name="Courses Applied for" value=" M.Com(Masters of Commmerce)" />
+                            M.Com(Masters of Commmerce)
+                        <br>
+                           <input type="radio" name="Courses Applied for" value=" M.Sc(Masters of Science)" />
+                                M.Sc(Masters of Science)
+                            <br>
+                                <input type="radio" name="Courses Applied for" value=" MA(Masters of Art)" />
+                                    MA(Masters of Art)
+                                    <br>
+            
+            <!-- Submit And Reset-->
+            <tr>
+                <td>
+                    <input type="button" value="Submit">
+                </td>
+                <td>
+                    <input type="button" value="Reset">
+                </td>
+            
+            </tr>
+    </table>
+    
+</body>
+</html>
